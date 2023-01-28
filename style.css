@@ -533,7 +533,7 @@ background: #FCFCFD;
 .page-header{
     display: flex;
 flex-direction: column;
-align-items: center;
+align-items: flex-start;
 padding: 0px;
 
 /* width: 1078px;
@@ -634,7 +634,7 @@ bottom: 4px;
     align-items: flex-start;
     padding: 64px 0px 0px;
 /* padding: 0px; */
-gap: 16px;
+gap: 450px;
 
 /* width: 830px; */
 height: 66px;
@@ -2008,6 +2008,7 @@ height: 160px;
     }
     .heading{
         flex-direction: column;
+        gap: 16px;
     }
     .text4 h1{
         font-size: 24px;
